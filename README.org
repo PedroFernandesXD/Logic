@@ -1,0 +1,9 @@
+#+TITLE: Lógica Proprocional
+#+AUTHOR: Pedro Fernandes
+
+
+* Lógica Proporcional
+
+Lógica proporcional codificada em Racket.
+
+ 
