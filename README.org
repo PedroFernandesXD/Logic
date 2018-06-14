@@ -1,9 +1,17 @@
-#+TITLE: Lógica Proprocional
+#+TITLE: Lógica Proprocional e Matemática Discreta
 #+AUTHOR: Pedro Fernandes
 
+O código em Racket é um interpedador de expressões lógicas.
+Já o em Common Lisp é um classsifcador de relação de um conjunto A={1,2,3,4}. 
+Time executer:
 
-* Lógica Proporcional
+real	0m1.315s
+user	0m1.138s
+sys	0m0.120s
 
-Lógica proporcional codificada em Racket.
+Maquína: Intel Pentium T4440
+Versão Lisp: SBCL 1.4.8
+
+Código não otimizado. Resultado em "relation.txt"
 
  
