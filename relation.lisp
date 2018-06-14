@@ -105,17 +105,14 @@
       
 (defun sbi(n &optional (r nil))
   (declare (optimize speed))
-  (if (fuc n)
+  (when (fuc n)
       (loop with vec = (2bit n)
 	 for x from 0 to 15 do
 	   (unless (zerop (bit vec x))
 	     (push (caddr (assoc x dic)) r)))
-      (if (= (length r) 4)
-	  (loop for x from 1 to 4 do
-	       (if (> (length (member x r)) 1)
-		   (return nil)
-		   (return t)))
-	  nil)))
+      (loop for x from 1 to 4 do
+	   (when (= (length (member x r)) 1)
+	     (return t)))))
 
 (defun relation(n &optional (s t))
   (declare (number n)
@@ -130,10 +127,10 @@
 	  (format s "S"))
 	(when (tra n)
 	  (format s "T"))))
-  (if (sbi n)
-      (format s "FFbFsFi")
-      (when (fuc n)
-	(format s "F"))))
+  (when (sbi n)
+    (format s "FFbFsFi"))
+  (when (fuc n)
+    (format s "F")))
   
 (defun frelation(pth)
   (declare (optimize speed))
