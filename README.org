@@ -1,17 +1,19 @@
 #+TITLE: Lógica Proprocional e Matemática Discreta
 #+AUTHOR: Pedro Fernandes
 
-O código em Racket *lógica.rkt* é um interpedador de expressões lógicas.
+O código em Racket (*lógica.rkt*) é um interpedador de expressões lógicas.
 
-Já o em Common Lisp *relation.lisp* é um classsifcador de relação de um conjunto A={1,2,3,4}. 
-Time executer:
+Já o em Common Lisp (*relation.lisp*) é um classsifcador de relação de um conjunto A={1,2,3,4}. 
 
-real	0m1.315s
-user	0m1.138s
-sys	0m0.120s
+ - *Time executer*:
 
-Maquína: Intel Pentium T4440
-Versão Lisp: SBCL 1.4.8
+  -- *real	0m1.315s*
+  -- *user	0m1.138s*
+  -- *sys	0m0.120s*
+
+ - *Maquína: Intel Pentium T4440*
+ 
+ - *Versão Lisp: SBCL 1.4.8*
 
 Código não otimizado. Resultado em "relation.txt"
 
