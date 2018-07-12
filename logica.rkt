@@ -111,6 +111,6 @@
   
   ;; Exemplo de USO:
   
- ;; (resultado "(-> p (~ p)")
+ ;; (resultado "(-> p (~ (^ r s)))")
   
   
