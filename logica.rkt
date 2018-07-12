@@ -110,7 +110,8 @@
   (for/list ((i f)) (~a i))) 
   
   ;; Exemplo de USO:
-  
- ;; (resultado "(-> p (~ (^ r s)))")
-  
+ 
+ ;; a expressão esta sendo availado como um string porque, a intenção é colocar este programa na web.
+ ;; (resultado "(-> p (~ (^ r s)))") 
+ ;; (table "(-> p (v q r))")
   
