@@ -15,6 +15,6 @@ Já o em Common Lisp (*relation.lisp*) é um classsifcador de relação de um co
  
  - *Versão Lisp: SBCL 1.4.8*
 
-Código basica otimizado. Resultado em "relation.txt"
+Código otimizado basica. Resultado em "relation.txt"
 
  
