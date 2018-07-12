@@ -108,3 +108,9 @@
 
 (define (normaliz f)
   (for/list ((i f)) (~a i))) 
+  
+  ;; Exemplo de USO:
+  
+ ;; (resultado "(-> p (~ p)")
+  
+  
